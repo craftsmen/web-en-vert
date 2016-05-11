@@ -629,6 +629,8 @@ body {
   opacity: 0.4;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
+  .social-link img {
+    height: 62px; }
   .social-link:hover {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%);
