@@ -583,19 +583,6 @@ body {
     content: "";
     display: block; }
 
-.section {
-  margin-bottom: 4.5em; }
-
-.intro {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1.618em; }
-  .intro::after {
-    clear: both;
-    content: "";
-    display: block; }
-
 .logo {
   background-color: #5fcf80;
   color: #fff;
@@ -635,6 +622,19 @@ body {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%);
     opacity: 1; }
+
+.section {
+  margin-bottom: 4.5em; }
+
+.intro {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.618em; }
+  .intro::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .leader-intro {
   font-family: "adelle", "Georgia", "Times", "Times New Roman", serif;
