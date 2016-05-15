@@ -593,14 +593,14 @@ body {
   -webkit-animation: 1s blink step-end infinite;
           animation: 1s blink step-end infinite; }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from,
   to {
     color: transparent; }
   50% {
     color: #fff; } }
 
-@keyframes "blink" {
+@keyframes blink {
   from,
   to {
     color: transparent; }
