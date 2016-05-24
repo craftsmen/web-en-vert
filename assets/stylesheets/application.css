@@ -668,6 +668,9 @@ body {
   border-bottom: 1px solid #bebebe;
   font-size: 1.77689em;
   padding: 0.375em 0; }
+  .next-event-talks-list li.canceled {
+    opacity: 0.4;
+    text-decoration: line-through; }
 
 .next-event-rsvp {
   margin-bottom: 3em; }
