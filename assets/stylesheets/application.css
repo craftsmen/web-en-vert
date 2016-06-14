@@ -656,8 +656,8 @@ body {
   .next-event-details img {
     display: inline-block;
     height: 1.2em;
-    vertical-align: top;
-    padding-right: 0.2em; }
+    padding-right: 0.2em;
+    vertical-align: top; }
   .next-event-details p {
     font-size: 1.77689em; }
 
@@ -679,8 +679,10 @@ body {
     .next-event-rsvp .nvite-rsvp-widget-button-success:hover {
       background-color: #4ca666; }
 
-.next-event-people .nvite-widget-heading {
-  font-size: 1.333em; }
+.next-event-people {
+  margin-bottom: 3em; }
+  .next-event-people .nvite-widget-heading {
+    font-size: 1.333em; }
 
 .past-events {
   max-width: 1200px;
