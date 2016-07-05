@@ -646,43 +646,6 @@ body {
 .next-event {
   background-color: #ededed;
   padding: 3em 0; }
-  .next-event h6 {
-    font-weight: 600; }
-
-.next-event-details {
-  margin-bottom: 3em; }
-  .next-event-details .separator {
-    padding: 0 0.5em; }
-  .next-event-details img {
-    display: inline-block;
-    height: 1.2em;
-    padding-right: 0.2em;
-    vertical-align: top; }
-  .next-event-details p {
-    font-size: 1.77689em; }
-
-.next-event-talks {
-  margin-bottom: 3em; }
-
-.next-event-talks-list li {
-  border-bottom: 1px solid #bebebe;
-  font-size: 1.77689em;
-  padding: 0.375em 0; }
-  .next-event-talks-list li.canceled {
-    opacity: 0.4;
-    text-decoration: line-through; }
-
-.next-event-rsvp {
-  margin-bottom: 3em; }
-  .next-event-rsvp .nvite-rsvp-widget-button-success {
-    background-color: #5fcf80; }
-    .next-event-rsvp .nvite-rsvp-widget-button-success:hover {
-      background-color: #4ca666; }
-
-.next-event-people {
-  margin-bottom: 3em; }
-  .next-event-people .nvite-widget-heading {
-    font-size: 1.333em; }
 
 .past-events {
   max-width: 1200px;
@@ -737,3 +700,42 @@ body {
   .footer a {
     color: inherit;
     text-decoration: underline; }
+
+.event-details {
+  margin-bottom: 3em; }
+  .event-details .separator {
+    padding: 0 0.5em; }
+  .event-details img {
+    display: inline-block;
+    height: 1.2em;
+    padding-right: 0.2em;
+    vertical-align: top; }
+  .event-details p {
+    font-size: 1.77689em; }
+
+.event-talks {
+  margin-bottom: 3em; }
+
+.event-rsvp {
+  margin-bottom: 3em; }
+  .event-rsvp .nvite-rsvp-widget-button-success {
+    background-color: #5fcf80; }
+    .event-rsvp .nvite-rsvp-widget-button-success:hover {
+      background-color: #4ca666; }
+
+.event-people {
+  margin-bottom: 3em; }
+  .event-people .nvite-widget-heading {
+    font-size: 1.333em; }
+
+.talk-title {
+  border-bottom: 1px solid #bebebe;
+  font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.77689em;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: 0.75em 0; }
+
+.talk-video {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em; }
