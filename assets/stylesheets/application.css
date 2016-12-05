@@ -647,6 +647,12 @@ body {
   background-color: #ededed;
   padding: 3em 0; }
 
+.event-talks-list li {
+  border-bottom: 1px solid #bebebe;
+  padding: 1.5em 0; }
+.event-talks-list p {
+  font-size: 1.333em; }
+
 .past-events {
   max-width: 1200px;
   margin-left: auto;
@@ -729,12 +735,10 @@ body {
     font-size: 1.333em; }
 
 .talk-title {
-  border-bottom: 1px solid #bebebe;
   font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.77689em;
   font-weight: 400;
-  margin-bottom: 0;
-  padding: 0.75em 0; }
+  margin-top: 0.75em; }
 
 .talk-video {
   margin-bottom: 1.5em;
